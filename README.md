@@ -20,7 +20,7 @@ python prepare_data.py
 ## Train RetroLEE model
 Go to the RetroLEE folder and run the following to train the model with specified dataset (default: USPTO_50k)
 ```
-python train.py --dataset uspto_50k --use_rxn_class False
+python train_retroLEE.py --dataset uspto_50k --use_rxn_class False
 ```
 The trained model will be saved at RetroLEE/experiments/uspto_50k/without_rxn_class/
 ## Evaluate using a trained model
